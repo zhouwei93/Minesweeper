@@ -1,30 +1,21 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+
+# Welcome to minesweeper 
+-----------------------------------------------------------------------------------------------
+This project is for minesweeper game. 
+Firstly, I create a 9x9 field indicating the game field. 
+Secondly I set all the field with -1 indicating field that had not been clicked.
+Then I generates random number and set mines where number is 9. 
+Then calaulate number of mine around a coordinate being clicked and print.
+It calculates the number of mines and when the user click all the coordinate without mine, the user wins.
+If user click a blank field, it will enlarge the field with 3x3 field in center of blank coordinate.
+Function start() is to stimulate the game if the coordinate has not been click, then return the function itself,
+else calculate the numbers of mines around the coordinate.
+Function print()is to show the layout 
+Function check(), whose type is bool is to check if the user had click all the field without mines.
+I generate rand number with seed(time(0)) and lay mines in main() function.
+
+#How to use it.
+------------------------------------------------------------------------------------------------
+you can compile with 'g++ -o sweep minesweeper.cpp' and then './sweep'
 
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started with C/C++, we have created some small hello world
-applications and a Makefile.
-
-Have a look at the files, and use the terminal to build them:
-
-    $ make
-    $ ./hello-c-world
-    $ ./hello-cpp-world
-
-We're sure you can take it from there. Go ahead and edit the code, 
-or add some new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
