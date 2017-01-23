@@ -5,11 +5,11 @@
 
 This project is for minesweeper game.
 
-minesweeper is a game with 9*9 field, when user set a position, it can show the board.
+1. minesweeper is a game with 9*9 field, when user set a position, it can show the board.
 
-then, prompt user whether there is a mine, if not ,game continues, Show the number of mines in the surrounding 8 squares.
+2.  prompt user whether there is a mine, if not ,game continues, Show the number of mines in the surrounding 8 squares.
 
-once user focus the mine, prompt game over, and show the position of mines. 
+3. if user find the mine, prompt game over, and show the position of mines. 
 # Details 
 ## how we write code 
 1. create a 9x9 field indicating the game field.
