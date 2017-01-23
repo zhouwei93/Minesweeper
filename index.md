@@ -10,7 +10,8 @@ This project is for minesweeper game.
 2.  prompt user whether there is a mine, if not ,game continues, Show the number of mines in the surrounding 8 squares.
 
 3. if user find the mine, prompt game over, and show the position of mines. 
-## Details 
+
+# Details 
 ## how we write code 
 1. create a 9x9 field indicating the game field.
 
