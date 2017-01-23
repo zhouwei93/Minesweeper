@@ -9,13 +9,16 @@ minesweeper is a game with 9*9 field, when user set a position, it can show the 
 
 then, prompt user whether there is a mine, if not ,game continues, Show the number of mines in the surrounding 8 squares.
 
-once user focus the mine, prompt game over, and show the position of mines. # Details ## how we write code Firstly, create a 9x9 field indicating the game field.
+once user focus the mine, prompt game over, and show the position of mines. 
+# Details 
+## how we write code 
+1. create a 9x9 field indicating the game field.
 
-Secondly , set all the field with -1 indicating field that had not been clicked.
+2. set all the field with -1 indicating field that had not been clicked.
 
-Then generates random number and set mines where number is 9.
+3. generates random number and set mines where number is 9.
 
-Then calaulate number of mine around a coordinate being clicked and print.
+4. calaulate number of mine around a coordinate being clicked and print.
 
 It calculates the number of mines and when the user click all the coordinate without mine, the user wins.
 
