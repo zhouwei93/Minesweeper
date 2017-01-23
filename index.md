@@ -12,7 +12,7 @@ This project is for minesweeper game.
 3. if user find the mine, prompt game over, and show the position of mines. 
 
 # Details 
-## how we write code 
+## about code 
 1. create a 9x9 field indicating the game field.
 
 2. set all the field with -1 indicating field that had not been clicked.
