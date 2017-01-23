@@ -1,6 +1,7 @@
 ### Welcome to GitHub Pages.
 
 # Welcome to minesweeper 
+
 # Function:
 
 This project is for minesweeper game.
